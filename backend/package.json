@@ -1,0 +1,8 @@
+{
+  "name": "naics-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
