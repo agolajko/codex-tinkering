@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Fuse from 'fuse.js';
-import naicsData from './data/naics.json';
+import naicsData from '../../data/naics.json';
 import { API } from 'aws-amplify';
 
 const fuse = new Fuse(naicsData, { keys: ['description', 'code'] });
